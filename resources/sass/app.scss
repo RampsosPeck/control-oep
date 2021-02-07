@@ -1,0 +1,59 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&family=Roboto+Slab:wght@900&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+.router-link-exact-active {
+  background: #61ffff;
+  color: #1a1a1a !important;
+}
+
+
+@media print {
+    .nav.nav-tabs li:not(.active){
+        display: none;
+    }
+    .invoice{
+    	padding: 10px 20px;
+    }
+
+    .invoice{
+		background-position: center center;
+		background-repeat: no-repeat;
+
+	}
+	.table-responsive table{
+		background-color: transparent !important;
+	}
+
+}
+
+@page {
+    margin: 10px;
+}
+
+.sidebar-dark-primary {
+    background-color: #002133;
+}
+
+
+.cyane {
+  background-color: #61ffff;
+}
